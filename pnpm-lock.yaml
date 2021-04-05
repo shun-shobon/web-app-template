@@ -1,4 +1,5 @@
 devDependencies:
+  typescript: 4.2.3
   vite: 2.1.5
 lockfileVersion: 5.2
 packages:
@@ -82,6 +83,13 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
+  /typescript/4.2.3:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-qOcYwxaByStAWrBf4x0fibwZvMRG+r4cQoTjbPtUlrWjBHbmCAww1i448U0GJ+3cNNEtebDteo/cHOR3xJ4wEw==
   /vite/2.1.5:
     dependencies:
       esbuild: 0.9.7
@@ -97,4 +105,5 @@ packages:
     resolution:
       integrity: sha512-tYU5iaYeUgQYvK/CNNz3tiJ8vYqPWfCE9IQ7K0iuzYovWw7lzty7KRYGWwV3CQPh0NKxWjOczAqiJsCL0Xb+Og==
 specifiers:
+  typescript: ^4.2.3
   vite: ^2.1.5

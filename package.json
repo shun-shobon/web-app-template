@@ -8,9 +8,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite serve"
+    "serve": "vite serve",
+    "check:type": "tsc"
   },
   "devDependencies": {
+    "typescript": "^4.2.3",
     "vite": "^2.1.5"
   }
 }
