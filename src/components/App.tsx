@@ -2,8 +2,8 @@ import type { VFC } from "react";
 
 const App: VFC = () => {
   return (
-    <div>
-      <h1>Hello, world!</h1>
+    <div className="absolute w-full h-full grid place-items-center">
+      <h1 className="text-4xl text-teal-400">Hello, world!</h1>
     </div>
   );
 };
