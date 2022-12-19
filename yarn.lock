@@ -556,6 +556,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^18.11.17":
+  version: 18.11.17
+  resolution: "@types/node@npm:18.11.17"
+  checksum: 1933afd068d5c75c068c6c4df6d10edb3b0b2bb6503d544e2f0496ac007c90596e6a5e284a8ef032451bc16f871b7e46719d7d2bea60e9b25d13a77d52161cac
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.4
   resolution: "@types/prop-types@npm:15.7.4"
@@ -2787,6 +2794,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web-test-template@workspace:."
   dependencies:
+    "@types/node": ^18.11.17
     "@types/react": ^17.0.38
     "@types/react-dom": ^17.0.11
     "@vitejs/plugin-react": ^3.0.0
