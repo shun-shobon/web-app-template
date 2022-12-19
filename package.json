@@ -9,8 +9,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "check": "run-p check:*",
-    "format": "prettier --w --ignore-path .gitignore \"**/*.{js,jsx,ts,tsx,html}\""
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,scss}'"
   },
   "dependencies": {
     "react": "^18.2.0",
