@@ -1,7 +1,4 @@
 {
-  "name": "web-test-template",
-  "version": "0.0.0",
-  "description": "Project template for web testing",
   "author": "Shuntaro Nishizawa <me@shun.technology> (https://github.com/shun-shobon)",
   "license": "MIT",
   "private": true,
