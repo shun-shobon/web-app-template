@@ -1,26 +1,12 @@
 {
+  "extends": ["@tsconfig/strictest", "@tsconfig/vite-react"],
   "compilerOptions": {
-    "noEmit": true,
-    "target": "ESNext",
-    "module": "ESNext",
-    "jsx": "react-jsx",
+    "ignoreDeprecations": "5.0",
+    "allowJs": true,
     "types": ["vite/client"],
-    "baseUrl": "./src",
+    "baseUrl": "./",
     "paths": {
-      "~/*": ["./*"]
-    },
-    "resolveJsonModule": true,
-    "strict": true,
-    "exactOptionalPropertyTypes": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "isolatedModules": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+      "~/*": ["./src/*"]
+    }
   }
 }
