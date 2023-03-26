@@ -1,4 +1,4 @@
-import { VStack, Heading } from "@chakra-ui/react";
+import { Heading, VStack } from "@chakra-ui/react";
 
 function App(): JSX.Element {
   return (
