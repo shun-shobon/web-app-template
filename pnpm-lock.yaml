@@ -5,7 +5,7 @@ specifiers:
   '@emotion/react': ^11.10.6
   '@emotion/styled': ^11.10.6
   '@trivago/prettier-plugin-sort-imports': ^4.1.1
-  '@tsconfig/strictest': ^1.0.2
+  '@tsconfig/strictest': ^2.0.0
   '@tsconfig/vite-react': ^1.0.1
   '@types/node': ^18.15.10
   '@types/react': ^18.0.30
@@ -31,7 +31,7 @@ dependencies:
 
 devDependencies:
   '@trivago/prettier-plugin-sort-imports': 4.1.1_prettier@2.8.7
-  '@tsconfig/strictest': 1.0.2
+  '@tsconfig/strictest': 2.0.0
   '@tsconfig/vite-react': 1.0.1
   '@types/node': 18.15.10
   '@types/react': 18.0.30
@@ -1796,8 +1796,8 @@ packages:
       - supports-color
     dev: true
 
-  /@tsconfig/strictest/1.0.2:
-    resolution: {integrity: sha512-IRKlC8cnP7zMz1SDBjyIVyPapkEGWLZ6wkF6Z8T+xU80P9sO5uGXlIUvtzjx+7ehPJRWxkB6CeIDwUfyqNtYkQ==}
+  /@tsconfig/strictest/2.0.0:
+    resolution: {integrity: sha512-E0dpiZNdwO20c8d3seh7OmjAvDpwoRkTcU6M8cvggzB45Bd45tyTU2XJeA5Wfq+8NzVGhunvqOJ30AjSkywMXA==}
     dev: true
 
   /@tsconfig/vite-react/1.0.1:
