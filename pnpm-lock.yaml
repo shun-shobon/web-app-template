@@ -4,7 +4,7 @@ specifiers:
   '@chakra-ui/react': ^2.5.4
   '@emotion/react': ^11.10.6
   '@emotion/styled': ^11.10.6
-  '@shun-shobon/eslint-config-base': ^0.2.0
+  '@shun-shobon/eslint-config-base': ^0.2.1
   '@trivago/prettier-plugin-sort-imports': ^4.1.1
   '@tsconfig/strictest': ^2.0.0
   '@tsconfig/vite-react': ^1.0.1
@@ -33,7 +33,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
-  '@shun-shobon/eslint-config-base': 0.2.0_j4766f7ecgqbon3u7zlxn5zszu
+  '@shun-shobon/eslint-config-base': 0.2.1_j4766f7ecgqbon3u7zlxn5zszu
   '@trivago/prettier-plugin-sort-imports': 4.1.1_prettier@2.8.7
   '@tsconfig/strictest': 2.0.0
   '@tsconfig/vite-react': 1.0.1
@@ -1839,13 +1839,13 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@shun-shobon/eslint-config-base/0.2.0_j4766f7ecgqbon3u7zlxn5zszu:
-    resolution: {integrity: sha512-uIDXX1Xln+23KNER88aTzs3pRNw/MzxY4t2u1BZ0TwAl7vsIXVIphdr48rjIYwT+soElbD+HVFOb6vgZQLnQKg==}
+  /@shun-shobon/eslint-config-base/0.2.1_j4766f7ecgqbon3u7zlxn5zszu:
+    resolution: {integrity: sha512-eTacJzDVYNmLC9cpMwIVlCwzp4GZ/84VIkpOq5v2XryH+VlZLCnlbHZfh0BP7/fbbP1es02RIHWzHmFrCngcrg==}
     peerDependencies:
-      eslint: ^8.0.0
+      eslint: ^8.36.0
       typescript: ^4.0.0 || ^5.0.0
     dependencies:
-      '@shun-shobon/eslint-config-utils': 0.1.0_j4766f7ecgqbon3u7zlxn5zszu
+      '@shun-shobon/eslint-config-utils': 0.1.1_j4766f7ecgqbon3u7zlxn5zszu
       '@typescript-eslint/eslint-plugin': 5.57.0_p7xo4zbf6rlx7pmjonhlydeowm
       '@typescript-eslint/parser': 5.57.0_j4766f7ecgqbon3u7zlxn5zszu
       eslint: 8.36.0
@@ -1857,8 +1857,8 @@ packages:
       - supports-color
     dev: true
 
-  /@shun-shobon/eslint-config-utils/0.1.0_j4766f7ecgqbon3u7zlxn5zszu:
-    resolution: {integrity: sha512-s5mJNob1sSsBsL3R4YrOgM2mxATL3uR2ErkZ2Y1YNxK7TrFgIHkfZ8WmA4AIXXAcludnG0xgG8nIaw2lS8CYDQ==}
+  /@shun-shobon/eslint-config-utils/0.1.1_j4766f7ecgqbon3u7zlxn5zszu:
+    resolution: {integrity: sha512-zQPWmhTKlMPN28Yf0iz1QsCxmO7540QTZpqWBd2ygm9nx9kvc5EbMn9eb3RB+vCRoJrut97nRD8UpDnSYNUBuA==}
     dependencies:
       '@typescript-eslint/utils': 5.57.0_j4766f7ecgqbon3u7zlxn5zszu
     transitivePeerDependencies:
