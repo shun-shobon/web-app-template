@@ -23,7 +23,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@shun-shobon/eslint-config-base": "^0.2.1",
+    "@shun-shobon/eslint-config-base": "^0.3.1",
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "@tsconfig/strictest": "^2.0.0",
     "@tsconfig/vite-react": "^1.0.1",
