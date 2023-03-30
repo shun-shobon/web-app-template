@@ -15,7 +15,7 @@
     "lint-fix:prettier": "prettier --write ."
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.5.4",
+    "@chakra-ui/react": "^2.5.5",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "framer-motion": "^10.10.0",
