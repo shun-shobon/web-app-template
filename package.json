@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@shun-shobon/eslint-config-base": "^0.4.4",
-    "@shun-shobon/eslint-config-react": "^0.1.6",
+    "@shun-shobon/eslint-config-react": "^0.1.7",
     "@tsconfig/strictest": "^2.0.1",
     "@tsconfig/vite-react": "^1.0.1",
     "@types/node": "^18.16.0",
