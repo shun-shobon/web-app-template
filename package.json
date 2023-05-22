@@ -27,7 +27,7 @@
     "@shun-shobon/eslint-config-react": "^0.1.11",
     "@tsconfig/strictest": "^2.0.1",
     "@tsconfig/vite-react": "^2.0.0",
-    "@types/node": "^18.16.13",
+    "@types/node": "^18.16.14",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "@vitejs/plugin-react": "^4.0.0",
