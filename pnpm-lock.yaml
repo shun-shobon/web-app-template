@@ -26,11 +26,11 @@ dependencies:
 
 devDependencies:
   '@shun-shobon/eslint-config-base':
-    specifier: ^0.4.16
-    version: 0.4.16(eslint@8.46.0)(typescript@5.1.6)
+    specifier: ^0.4.17
+    version: 0.4.17(eslint@8.46.0)(typescript@5.1.6)
   '@shun-shobon/eslint-config-react':
     specifier: ^0.1.19
-    version: 0.1.19(@shun-shobon/eslint-config-base@0.4.16)(eslint@8.46.0)(typescript@5.1.6)
+    version: 0.1.19(@shun-shobon/eslint-config-base@0.4.17)(eslint@8.46.0)(typescript@5.1.6)
   '@tsconfig/strictest':
     specifier: ^2.0.1
     version: 2.0.1
@@ -1862,13 +1862,13 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@shun-shobon/eslint-config-base@0.4.16(eslint@8.46.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-qz3GAgjRxPu1G1q293Oq2MKZee0oK1ZLS2rHIn4BbvGV3rNIUP9Ou5ENvh0Fz77AKVQW4MwTZlGzrLd4kHfl0w==}
+  /@shun-shobon/eslint-config-base@0.4.17(eslint@8.46.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-1Ig6GfGNgrUIc088/1LM15fJND3KksuMuR8d6muL8UdLSA9osgIMd4HDUP0Gs6oLp3OE75jDxKZnlGjxmbYIJA==}
     peerDependencies:
       eslint: ^8.46.0
       typescript: ^4.0.0 || ^5.0.0
     dependencies:
-      '@shun-shobon/eslint-config-utils': 0.1.16(eslint@8.46.0)(typescript@5.1.6)
+      '@shun-shobon/eslint-config-utils': 0.1.17(eslint@8.46.0)(typescript@5.1.6)
       '@typescript-eslint/eslint-plugin': 6.2.1(@typescript-eslint/parser@6.2.1)(eslint@8.46.0)(typescript@5.1.6)
       '@typescript-eslint/parser': 6.2.1(eslint@8.46.0)(typescript@5.1.6)
       eslint: 8.46.0
@@ -1880,14 +1880,14 @@ packages:
       - supports-color
     dev: true
 
-  /@shun-shobon/eslint-config-react@0.1.19(@shun-shobon/eslint-config-base@0.4.16)(eslint@8.46.0)(typescript@5.1.6):
+  /@shun-shobon/eslint-config-react@0.1.19(@shun-shobon/eslint-config-base@0.4.17)(eslint@8.46.0)(typescript@5.1.6):
     resolution: {integrity: sha512-ysqTVg5c59fyYXXMwKy4ZUivzP/cS24qQ0gAb9/n5kY751qS/vmfg0sE8vXs6/zY0tI5bydwGXH2UrKxDcMaeA==}
     peerDependencies:
       '@shun-shobon/eslint-config-base': 0.4.16
       eslint: ^8.46.0
       typescript: ^4.0.0 || ^5.0.0
     dependencies:
-      '@shun-shobon/eslint-config-base': 0.4.16(eslint@8.46.0)(typescript@5.1.6)
+      '@shun-shobon/eslint-config-base': 0.4.17(eslint@8.46.0)(typescript@5.1.6)
       '@shun-shobon/eslint-config-utils': 0.1.16(eslint@8.46.0)(typescript@5.1.6)
       eslint: 8.46.0
       eslint-config-prettier: 8.9.0(eslint@8.46.0)
@@ -1903,6 +1903,16 @@ packages:
     resolution: {integrity: sha512-CeMH4davFADyeS/BJVOVjUz4NPils9Eu5c0FXmW3/QjtuwpxqU1/R/uF1aO7EoEjyyys2+/HHYs65GTgI0iy2g==}
     dependencies:
       '@typescript-eslint/utils': 6.2.0(eslint@8.46.0)(typescript@5.1.6)
+    transitivePeerDependencies:
+      - eslint
+      - supports-color
+      - typescript
+    dev: true
+
+  /@shun-shobon/eslint-config-utils@0.1.17(eslint@8.46.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-aCiLnmC6YSyUsfc/ZTLLQfXIcruzd80EKza5J/gbCxgX1JLFUjDG+fxki2j5egD+yilkOkLiV76f6JDFKhqpgg==}
+    dependencies:
+      '@typescript-eslint/utils': 6.2.1(eslint@8.46.0)(typescript@5.1.6)
     transitivePeerDependencies:
       - eslint
       - supports-color
