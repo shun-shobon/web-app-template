@@ -16,7 +16,7 @@ jobs:
           - prettier
           - tsc
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: shun-shobon/actions/setup-node@master
         with:
           node-version-file: .tool-versions
