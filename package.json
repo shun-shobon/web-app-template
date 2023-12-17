@@ -23,8 +23,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@shun-shobon/eslint-config-base": "^0.5.2",
-    "@shun-shobon/eslint-config-react": "^0.2.2",
+    "@shun-shobon/eslint-config-base": "^1.0.14",
+    "@shun-shobon/eslint-config-react": "^1.0.4",
     "@tsconfig/strictest": "^2.0.2",
     "@tsconfig/vite-react": "^2.0.1",
     "@types/node": "^18.19.3",
