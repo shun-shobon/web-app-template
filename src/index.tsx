@@ -4,17 +4,17 @@ import { createRoot } from "react-dom/client";
 
 import App from "~/components/App";
 
-const container = document.getElementById("root");
+const container = document.querySelector("#root");
 if (!container) {
-  throw new Error("No root element found");
+	throw new Error("No root element found");
 }
 
 const root = createRoot(container);
 
 root.render(
-  <StrictMode>
-    <ChakraProvider>
-      <App />
-    </ChakraProvider>
-  </StrictMode>,
+	<StrictMode>
+		<ChakraProvider>
+			<App />
+		</ChakraProvider>
+	</StrictMode>,
 );

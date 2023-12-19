@@ -4,11 +4,11 @@ import { createHtmlPlugin } from "vite-plugin-html";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  plugins: [
-    react(),
-    createHtmlPlugin({
-      minify: true,
-    }),
-    tsconfigPaths(),
-  ],
+	plugins: [
+		react(),
+		createHtmlPlugin({
+			minify: true,
+		}),
+		tsconfigPaths(),
+	],
 });
