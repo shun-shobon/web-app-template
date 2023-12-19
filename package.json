@@ -7,10 +7,10 @@
 	"scripts": {
 		"build": "vite build",
 		"dev": "vite",
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
 		"lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
+		"lint:fix": "eslint --fix ."
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^2.8.2",
