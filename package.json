@@ -1,6 +1,9 @@
 {
+	"name": "@shun-shobon/web-app-template",
+	"version": "0.1.0",
 	"type": "module",
-	"author": "Shuntaro Nishizawa <me@s2n.tech> (https://s2n.tech)",
+	"description": "This is a template for a web app. It uses Vite, React, TypeScript and Chakra UI.",
+	"author": "NISHIZAWA Shuntaro <me@s2n.tech> (https://s2n.tech/)",
 	"license": "MIT",
 	"private": true,
 	"packageManager": "pnpm@8.12.1",
