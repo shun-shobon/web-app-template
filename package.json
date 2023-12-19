@@ -7,13 +7,10 @@
 	"scripts": {
 		"build": "vite build",
 		"dev": "vite",
-		"lint": "run-s -c lint:*",
-		"lint-fix": "run-s -c lint-fix:*",
-		"lint-fix:eslint": "pnpm run lint:eslint --fix",
-		"lint-fix:prettier": "prettier --write .",
-		"lint:eslint": "eslint .",
-		"lint:prettier": "prettier --check .",
-		"lint:tsc": "tsc"
+		"lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^2.8.2",
