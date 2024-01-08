@@ -24,7 +24,7 @@
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@shun-shobon/eslint-config": "^0.4.11",
+		"@shun-shobon/eslint-config": "^0.4.12",
 		"@shun-shobon/prettier-config": "^0.2.3",
 		"@types/node": "^18.19.5",
 		"@types/react": "^18.2.47",
