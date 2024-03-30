@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^0.3.1
     version: 0.3.1(prettier@3.2.5)
   '@types/node':
-    specifier: ^18.19.26
-    version: 18.19.26
+    specifier: ^18.19.27
+    version: 18.19.27
   '@types/react':
     specifier: ^18.2.73
     version: 18.2.73
@@ -57,7 +57,7 @@ devDependencies:
     version: 5.4.3
   vite:
     specifier: ^5.2.7
-    version: 5.2.7(@types/node@18.19.26)
+    version: 5.2.7(@types/node@18.19.27)
   vite-plugin-html:
     specifier: ^3.2.2
     version: 3.2.2(vite@5.2.7)
@@ -2120,8 +2120,8 @@ packages:
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
     dev: true
 
-  /@types/node@18.19.26:
-    resolution: {integrity: sha512-+wiMJsIwLOYCvUqSdKTrfkS8mpTp+MPINe6+Np4TAGFWWRWiBQ5kSq9nZGCSPkzx9mvT+uEukzpX4MOSCydcvw==}
+  /@types/node@18.19.27:
+    resolution: {integrity: sha512-yd2W8EcsMY8X2mAmSHOwW0YuW5NksHr2vD9bWAfvyXHaEqGvD/0nygQVeqlck4KhZ9k6RsXGxhixUWRfyN+0mQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -2366,7 +2366,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.24.1(@babel/core@7.24.3)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.0
-      vite: 5.2.7(@types/node@18.19.26)
+      vite: 5.2.7(@types/node@18.19.27)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5997,7 +5997,7 @@ packages:
       html-minifier-terser: 6.1.0
       node-html-parser: 5.4.2
       pathe: 0.2.0
-      vite: 5.2.7(@types/node@18.19.26)
+      vite: 5.2.7(@types/node@18.19.27)
     dev: true
 
   /vite-tsconfig-paths@4.3.2(typescript@5.4.3)(vite@5.2.7):
@@ -6011,13 +6011,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.4.3)
-      vite: 5.2.7(@types/node@18.19.26)
+      vite: 5.2.7(@types/node@18.19.27)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@5.2.7(@types/node@18.19.26):
+  /vite@5.2.7(@types/node@18.19.27):
     resolution: {integrity: sha512-k14PWOKLI6pMaSzAuGtT+Cf0YmIx12z9YGon39onaJNy8DLBfBJrzg9FQEmkAM5lpHBZs9wksWAsyF/HkpEwJA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -6045,7 +6045,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.19.26
+      '@types/node': 18.19.27
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.13.0
