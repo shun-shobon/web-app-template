@@ -28,8 +28,8 @@ importers:
         version: 18.2.0(react@18.2.0)
     devDependencies:
       '@shun-shobon/eslint-config':
-        specifier: ^0.9.2
-        version: 0.9.2(@typescript-eslint/parser@7.7.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
+        specifier: ^0.9.3
+        version: 0.9.3(@typescript-eslint/parser@7.7.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
       '@shun-shobon/prettier-config':
         specifier: ^0.4.0
         version: 0.4.0(prettier@3.2.5)
@@ -1014,8 +1014,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@shun-shobon/eslint-config@0.9.2':
-    resolution: {integrity: sha512-16+fahiwP+KHuNxWBz5SUbrdUMN1KT/c3lRjC4ges7MG9nVs3E8UMiFq7KOPTjR7Fi46xySFRPiZosqSI1WwPg==}
+  '@shun-shobon/eslint-config@0.9.3':
+    resolution: {integrity: sha512-8B8/omk7eosD2S2E16JUZLZ1hbTX3byqCcciPuL+JhkuGax26Dx9Ks/NYKNXuLgeiybJodl7NtWlfT8MTBdWTw==}
     peerDependencies:
       eslint: ^8.21.0
 
@@ -4305,7 +4305,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.14.2':
     optional: true
 
-  '@shun-shobon/eslint-config@0.9.2(@typescript-eslint/parser@7.7.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)':
+  '@shun-shobon/eslint-config@0.9.3(@typescript-eslint/parser@7.7.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)':
     dependencies:
       '@eslint/js': 8.57.0
       '@next/eslint-plugin-next': 14.2.2
