@@ -27,7 +27,7 @@
 		"@shun-shobon/eslint-config": "^0.10.1",
 		"@shun-shobon/prettier-config": "^0.4.0",
 		"@types/node": "^18.19.33",
-		"@types/react": "^18.3.2",
+		"@types/react": "^18.3.3",
 		"@types/react-dom": "^18.3.0",
 		"@vitejs/plugin-react": "^4.3.0",
 		"eslint": "^8.57.0",
