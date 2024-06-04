@@ -16,26 +16,26 @@
 		"lint:fix": "eslint --fix ."
 	},
 	"dependencies": {
-		"@chakra-ui/react": "^2.8.2",
-		"@emotion/react": "^11.11.4",
-		"@emotion/styled": "^11.11.5",
-		"framer-motion": "^11.2.10",
-		"react": "^18.3.1",
-		"react-dom": "^18.3.1"
+		"@chakra-ui/react": "2.8.2",
+		"@emotion/react": "11.11.4",
+		"@emotion/styled": "11.11.5",
+		"framer-motion": "11.2.10",
+		"react": "18.3.1",
+		"react-dom": "18.3.1"
 	},
 	"devDependencies": {
-		"@shun-shobon/eslint-config": "^0.12.5",
-		"@shun-shobon/prettier-config": "^0.4.3",
-		"@types/node": "^18.19.34",
-		"@types/react": "^18.3.3",
-		"@types/react-dom": "^18.3.0",
-		"@vitejs/plugin-react": "^4.3.0",
-		"eslint": "^8.57.0",
-		"npm-run-all2": "^6.2.0",
-		"prettier": "^3.3.0",
+		"@shun-shobon/eslint-config": "0.12.5",
+		"@shun-shobon/prettier-config": "0.4.3",
+		"@types/node": "18.19.34",
+		"@types/react": "18.3.3",
+		"@types/react-dom": "18.3.0",
+		"@vitejs/plugin-react": "4.3.0",
+		"eslint": "8.57.0",
+		"npm-run-all2": "6.2.0",
+		"prettier": "3.3.0",
 		"typescript": "5.4.5",
-		"vite": "^5.2.12",
-		"vite-plugin-html": "^3.2.2",
-		"vite-tsconfig-paths": "^4.3.2"
+		"vite": "5.2.12",
+		"vite-plugin-html": "3.2.2",
+		"vite-tsconfig-paths": "4.3.2"
 	}
 }
