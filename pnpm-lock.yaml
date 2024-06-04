@@ -34,8 +34,8 @@ importers:
         specifier: ^0.4.1
         version: 0.4.1(prettier@3.2.5)
       '@types/node':
-        specifier: ^18.19.33
-        version: 18.19.33
+        specifier: ^18.19.34
+        version: 18.19.34
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -44,7 +44,7 @@ importers:
         version: 18.3.0
       '@vitejs/plugin-react':
         specifier: ^4.3.0
-        version: 4.3.0(vite@5.2.12(@types/node@18.19.33)(terser@5.31.0))
+        version: 4.3.0(vite@5.2.12(@types/node@18.19.34)(terser@5.31.0))
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -59,13 +59,13 @@ importers:
         version: 5.4.5
       vite:
         specifier: ^5.2.12
-        version: 5.2.12(@types/node@18.19.33)(terser@5.31.0)
+        version: 5.2.12(@types/node@18.19.34)(terser@5.31.0)
       vite-plugin-html:
         specifier: ^3.2.2
-        version: 3.2.2(vite@5.2.12(@types/node@18.19.33)(terser@5.31.0))
+        version: 3.2.2(vite@5.2.12(@types/node@18.19.34)(terser@5.31.0))
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.4.5)(vite@5.2.12(@types/node@18.19.33)(terser@5.31.0))
+        version: 4.3.2(typescript@5.4.5)(vite@5.2.12(@types/node@18.19.34)(terser@5.31.0))
 
 packages:
 
@@ -1068,8 +1068,8 @@ packages:
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
 
-  '@types/node@18.19.33':
-    resolution: {integrity: sha512-NR9+KrpSajr2qBVp/Yt5TU/rp+b5Mayi3+OlMlcg2cVCfRmcG5PWZ7S4+MG9PZ5gWBoc9Pd0BKSRViuBCRPu0A==}
+  '@types/node@18.19.34':
+    resolution: {integrity: sha512-eXF4pfBNV5DAMKGbI02NnDtWrQ40hAN558/2vvS4gMpMIxaf6JmD7YjnZbq0Q9TDSSkKBamime8ewRoomHdt4g==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -4523,7 +4523,7 @@ snapshots:
 
   '@types/ms@0.7.34': {}
 
-  '@types/node@18.19.33':
+  '@types/node@18.19.34':
     dependencies:
       undici-types: 5.26.5
 
@@ -4708,14 +4708,14 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-react@4.3.0(vite@5.2.12(@types/node@18.19.33)(terser@5.31.0))':
+  '@vitejs/plugin-react@4.3.0(vite@5.2.12(@types/node@18.19.34)(terser@5.31.0))':
     dependencies:
       '@babel/core': 7.24.5
       '@babel/plugin-transform-react-jsx-self': 7.24.5(@babel/core@7.24.5)
       '@babel/plugin-transform-react-jsx-source': 7.24.1(@babel/core@7.24.5)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.2.12(@types/node@18.19.33)(terser@5.31.0)
+      vite: 5.2.12(@types/node@18.19.34)(terser@5.31.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -6989,7 +6989,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-plugin-html@3.2.2(vite@5.2.12(@types/node@18.19.33)(terser@5.31.0)):
+  vite-plugin-html@3.2.2(vite@5.2.12(@types/node@18.19.34)(terser@5.31.0)):
     dependencies:
       '@rollup/pluginutils': 4.2.1
       colorette: 2.0.20
@@ -7003,26 +7003,26 @@ snapshots:
       html-minifier-terser: 6.1.0
       node-html-parser: 5.4.2
       pathe: 0.2.0
-      vite: 5.2.12(@types/node@18.19.33)(terser@5.31.0)
+      vite: 5.2.12(@types/node@18.19.34)(terser@5.31.0)
 
-  vite-tsconfig-paths@4.3.2(typescript@5.4.5)(vite@5.2.12(@types/node@18.19.33)(terser@5.31.0)):
+  vite-tsconfig-paths@4.3.2(typescript@5.4.5)(vite@5.2.12(@types/node@18.19.34)(terser@5.31.0)):
     dependencies:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.4.5)
     optionalDependencies:
-      vite: 5.2.12(@types/node@18.19.33)(terser@5.31.0)
+      vite: 5.2.12(@types/node@18.19.34)(terser@5.31.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@5.2.12(@types/node@18.19.33)(terser@5.31.0):
+  vite@5.2.12(@types/node@18.19.34)(terser@5.31.0):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.17.2
     optionalDependencies:
-      '@types/node': 18.19.33
+      '@types/node': 18.19.34
       fsevents: 2.3.3
       terser: 5.31.0
 
