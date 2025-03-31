@@ -41,7 +41,7 @@ importers:
         version: 18.3.5(@types/react@18.3.20)
       '@vitejs/plugin-react':
         specifier: 4.3.4
-        version: 4.3.4(vite@6.2.3(@types/node@22.13.14)(terser@5.39.0))
+        version: 4.3.4(vite@6.2.4(@types/node@22.13.14)(terser@5.39.0))
       eslint:
         specifier: 9.23.0
         version: 9.23.0
@@ -52,14 +52,14 @@ importers:
         specifier: 5.8.2
         version: 5.8.2
       vite:
-        specifier: 6.2.3
-        version: 6.2.3(@types/node@22.13.14)(terser@5.39.0)
+        specifier: 6.2.4
+        version: 6.2.4(@types/node@22.13.14)(terser@5.39.0)
       vite-plugin-html:
         specifier: 3.2.2
-        version: 3.2.2(vite@6.2.3(@types/node@22.13.14)(terser@5.39.0))
+        version: 3.2.2(vite@6.2.4(@types/node@22.13.14)(terser@5.39.0))
       vite-tsconfig-paths:
         specifier: 5.1.4
-        version: 5.1.4(typescript@5.8.2)(vite@6.2.3(@types/node@22.13.14)(terser@5.39.0))
+        version: 5.1.4(typescript@5.8.2)(vite@6.2.4(@types/node@22.13.14)(terser@5.39.0))
 
 packages:
 
@@ -2527,8 +2527,8 @@ packages:
       vite:
         optional: true
 
-  vite@6.2.3:
-    resolution: {integrity: sha512-IzwM54g4y9JA/xAeBPNaDXiBF8Jsgl3VBQ2YQ/wOY6fyW3xMdSoltIV3Bo59DErdqdE6RxUfv8W69DvUorE4Eg==}
+  vite@6.2.4:
+    resolution: {integrity: sha512-veHMSew8CcRzhL5o8ONjy8gkfmFJAd5Ac16oxBUjlwgX3Gq2Wqr+qNC3TjPIpy7TPV/KporLga5GT9HqdrCizw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -3347,14 +3347,14 @@ snapshots:
       '@typescript-eslint/types': 8.28.0
       eslint-visitor-keys: 4.2.0
 
-  '@vitejs/plugin-react@4.3.4(vite@6.2.3(@types/node@22.13.14)(terser@5.39.0))':
+  '@vitejs/plugin-react@4.3.4(vite@6.2.4(@types/node@22.13.14)(terser@5.39.0))':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.10)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.10)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 6.2.3(@types/node@22.13.14)(terser@5.39.0)
+      vite: 6.2.4(@types/node@22.13.14)(terser@5.39.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -5444,7 +5444,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-plugin-html@3.2.2(vite@6.2.3(@types/node@22.13.14)(terser@5.39.0)):
+  vite-plugin-html@3.2.2(vite@6.2.4(@types/node@22.13.14)(terser@5.39.0)):
     dependencies:
       '@rollup/pluginutils': 4.2.1
       colorette: 2.0.20
@@ -5458,20 +5458,20 @@ snapshots:
       html-minifier-terser: 6.1.0
       node-html-parser: 5.4.2
       pathe: 0.2.0
-      vite: 6.2.3(@types/node@22.13.14)(terser@5.39.0)
+      vite: 6.2.4(@types/node@22.13.14)(terser@5.39.0)
 
-  vite-tsconfig-paths@5.1.4(typescript@5.8.2)(vite@6.2.3(@types/node@22.13.14)(terser@5.39.0)):
+  vite-tsconfig-paths@5.1.4(typescript@5.8.2)(vite@6.2.4(@types/node@22.13.14)(terser@5.39.0)):
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
       tsconfck: 3.1.5(typescript@5.8.2)
     optionalDependencies:
-      vite: 6.2.3(@types/node@22.13.14)(terser@5.39.0)
+      vite: 6.2.4(@types/node@22.13.14)(terser@5.39.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@6.2.3(@types/node@22.13.14)(terser@5.39.0):
+  vite@6.2.4(@types/node@22.13.14)(terser@5.39.0):
     dependencies:
       esbuild: 0.25.2
       postcss: 8.5.3
