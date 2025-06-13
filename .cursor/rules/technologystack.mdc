@@ -1,0 +1,42 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# 技術スタック
+
+このプロジェクトは以下の技術スタックで構成されています：
+
+## ランタイム・環境
+- **Node.js**: 22.16.0 ([mise.toml](mdc:mise.toml))
+- **パッケージマネージャー**: pnpm 10.12.1 ([package.json](mdc:package.json))
+
+## フロントエンド
+- **React**: 19.1.0
+- **TypeScript**: 5.8.3
+- **UIライブラリ**: Mantine 8.1.0 (@mantine/core, @mantine/hooks)
+
+## ビルドツール・開発環境
+- **バンドラー**: Vite 6.3.5 ([vite.config.ts](mdc:vite.config.ts))
+- **Reactプラグイン**: @vitejs/plugin-react 4.5.1
+- **パス解決**: vite-tsconfig-paths 5.1.4
+
+## コード品質・フォーマット
+- **ESLint**: 9.28.0 ([eslint.config.js](mdc:eslint.config.js))
+- **スタイルガイド**: @shun-shobon/style-guide 0.4.1
+- **Prettier**: 3.5.3 ([prettier.config.js](mdc:prettier.config.js))
+
+## TypeScript設定
+- **ベース設定**: @tsconfig/strictest 2.0.5 ([tsconfig.json](mdc:tsconfig.json))
+- **JSX**: react-jsx
+- **モジュール解決**: bundler
+- **パスエイリアス**: `~/*` → `./src/*`
+
+## 開発ツール
+- **型定義**: @types/node, @types/react, @types/react-dom
+- **依存関係更新**: Renovate ([renovate.json](mdc:renovate.json))
+
+## 重要な制約
+- 技術スタックのバージョンは明示的に指定されています
+- 変更が必要な場合は必ず事前承認を取得してください
+- 特にReact 19.1.0、TypeScript 5.8.3、Vite 6.3.5のバージョン維持が重要です
