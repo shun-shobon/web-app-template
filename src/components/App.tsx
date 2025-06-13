@@ -1,13 +1,19 @@
-import { Heading, VStack } from "@chakra-ui/react";
+import { Button, Flex, Title } from "@mantine/core";
 import type { FC } from "react";
 
 const App: FC = () => {
 	return (
-		<VStack w="100wh" h="100vh" justify="center">
-			<Heading as="h1" size="4xl" color="teal.300">
-				Hello, world!
-			</Heading>
-		</VStack>
+		<Flex
+			w="100wh"
+			h="100vh"
+			justify="center"
+			align="center"
+			direction="column"
+			gap="md"
+		>
+			<Title>Hello, world!</Title>
+			<Button>Click me</Button>
+		</Flex>
 	);
 };
 
