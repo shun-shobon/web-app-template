@@ -24,7 +24,7 @@
 	"devDependencies": {
 		"@shun-shobon/style-guide": "1.1.1",
 		"@tsconfig/strictest": "2.0.8",
-		"@types/node": "22.19.0",
+		"@types/node": "22.19.1",
 		"@types/react": "19.2.2",
 		"@types/react-dom": "19.2.2",
 		"@vitejs/plugin-react": "5.1.1",
