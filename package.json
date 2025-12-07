@@ -22,14 +22,14 @@
 		"react-dom": "19.2.1"
 	},
 	"devDependencies": {
-		"@shun-shobon/style-guide": "1.1.1",
+		"@shun-shobon/style-guide": "1.2.0",
 		"@tsconfig/strictest": "2.0.8",
 		"@types/node": "22.19.1",
 		"@types/react": "19.2.7",
 		"@types/react-dom": "19.2.3",
 		"@vitejs/plugin-react": "5.1.1",
 		"eslint": "9.39.1",
-		"prettier": "3.7.1",
+		"prettier": "3.7.4",
 		"typescript": "5.9.3",
 		"vite": "7.2.6",
 		"vite-tsconfig-paths": "5.1.4"
