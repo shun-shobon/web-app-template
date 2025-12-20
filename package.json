@@ -22,7 +22,7 @@
 		"react-dom": "19.2.3"
 	},
 	"devDependencies": {
-		"@shun-shobon/style-guide": "1.2.2",
+		"@shun-shobon/style-guide": "1.3.0",
 		"@tsconfig/strictest": "2.0.8",
 		"@types/node": "24.10.4",
 		"@types/react": "19.2.7",
