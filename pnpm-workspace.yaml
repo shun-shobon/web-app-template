@@ -1,0 +1,17 @@
+minimumReleaseAge: 1440
+
+minimumReleaseAgeExclude:
+  - "@shun-shobon/style-guide"
+
+onlyBuiltDependencies:
+  - esbuild
+  - unrs-resolver
+
+saveExact: true
+
+strictDepBuilds: true
+
+trustPolicy: no-downgrade
+
+trustPolicyExclude:
+  - "semver@6.3.1"
