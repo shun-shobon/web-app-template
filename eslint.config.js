@@ -1,5 +1,3 @@
 import { shun_shobon } from "@shun-shobon/style-guide/eslint";
 
-export default shun_shobon({
-	typescript: true,
-});
+export default shun_shobon();
