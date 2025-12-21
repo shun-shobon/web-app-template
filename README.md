@@ -8,7 +8,8 @@
 - pnpm
 - React
 - TypeScript
-- Mantine
+- Tailwind CSS
+- Base UI
 - ESLint
 - Prettier
 
@@ -48,4 +49,7 @@ pnpm lint
 
 # リンターの自動修正
 pnpm lint:fix
+
+# 型チェック
+pnpm typecheck
 ```
