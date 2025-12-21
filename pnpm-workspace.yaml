@@ -14,4 +14,5 @@ strictDepBuilds: true
 trustPolicy: no-downgrade
 
 trustPolicyExclude:
+  - "reselect@5.1.1"
   - "semver@6.3.1"
