@@ -1,19 +1,13 @@
-import { Button, Flex, Title } from "@mantine/core";
 import type { FC } from "react";
 
 const App: FC = () => {
 	return (
-		<Flex
-			w="100wh"
-			h="100vh"
-			justify="center"
-			align="center"
-			direction="column"
-			gap="md"
-		>
-			<Title>Hello, world!</Title>
-			<Button>Click me</Button>
-		</Flex>
+		<div className="flex h-screen w-screen flex-col items-center justify-center gap-4">
+			<h1 className="text-2xl font-bold">Hello, world!</h1>
+			<button className="rounded-md bg-blue-500 px-4 py-2 text-white">
+				Click me
+			</button>
+		</div>
 	);
 };
 
