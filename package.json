@@ -23,7 +23,7 @@
 		"tailwindcss": "4.2.1"
 	},
 	"devDependencies": {
-		"@shun-shobon/style-guide": "4.0.0",
+		"@shun-shobon/style-guide": "4.1.0",
 		"@tailwindcss/vite": "4.2.1",
 		"@tsconfig/strictest": "2.0.8",
 		"@tsconfig/vite-react": "7.0.2",
