@@ -23,7 +23,7 @@ importers:
     devDependencies:
       '@shun-shobon/style-guide':
         specifier: 5.1.1
-        version: 5.1.1(@typescript-eslint/utils@8.67.0(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0))(prettier@3.9.6)(storybook@10.5.10(@types/react@19.3.0)(prettier@3.9.6)(react@19.3.0))(typescript@5.9.3)
+        version: 5.1.1(@typescript-eslint/utils@8.67.0(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0))(prettier@3.9.7)(storybook@10.5.10(@types/react@19.3.0)(prettier@3.9.7)(react@19.3.0))(typescript@5.9.3)
       '@tailwindcss/vite':
         specifier: 4.3.3
         version: 4.3.3(vite@7.3.6(@types/node@24.13.5)(jiti@2.7.0)(lightningcss@1.32.0))
@@ -49,8 +49,8 @@ importers:
         specifier: 9.39.5
         version: 9.39.5(jiti@2.7.0)
       prettier:
-        specifier: 3.9.6
-        version: 3.9.6
+        specifier: 3.9.7
+        version: 3.9.7
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -2641,8 +2641,8 @@ packages:
       prettier-plugin-svelte:
         optional: true
 
-  prettier@3.9.6:
-    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
+  prettier@3.9.7:
+    resolution: {integrity: sha512-T3mF5P7HFzZVLDQuCUNtJj6WK1pcpLMweMNUVwGb01bLNkH9AkKxtZvmInw8K6bnn2O3d6/5RHl6zSHiBAD0Og==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3740,7 +3740,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.62.5':
     optional: true
 
-  '@shun-shobon/style-guide@5.1.1(@typescript-eslint/utils@8.67.0(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0))(prettier@3.9.6)(storybook@10.5.10(@types/react@19.3.0)(prettier@3.9.6)(react@19.3.0))(typescript@5.9.3)':
+  '@shun-shobon/style-guide@5.1.1(@typescript-eslint/utils@8.67.0(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.5(jiti@2.7.0))(prettier@3.9.7)(storybook@10.5.10(@types/react@19.3.0)(prettier@3.9.7)(react@19.3.0))(typescript@5.9.3)':
     dependencies:
       '@eslint/core': 1.1.0
       '@eslint/js': 10.0.1(eslint@9.39.5(jiti@2.7.0))
@@ -3758,18 +3758,18 @@ snapshots:
       eslint-plugin-react-hooks: 7.0.1(eslint@9.39.5(jiti@2.7.0))
       eslint-plugin-regexp: 3.0.0(eslint@9.39.5(jiti@2.7.0))
       eslint-plugin-simple-import-sort: 12.1.1(eslint@9.39.5(jiti@2.7.0))
-      eslint-plugin-storybook: 10.2.14(eslint@9.39.5(jiti@2.7.0))(storybook@10.5.10(@types/react@19.3.0)(prettier@3.9.6)(react@19.3.0))(typescript@5.9.3)
+      eslint-plugin-storybook: 10.2.14(eslint@9.39.5(jiti@2.7.0))(storybook@10.5.10(@types/react@19.3.0)(prettier@3.9.7)(react@19.3.0))(typescript@5.9.3)
       eslint-plugin-unicorn: 63.0.0(eslint@9.39.5(jiti@2.7.0))
       globals: 17.4.0
       local-pkg: 1.1.2
       prettier-plugin-astro: 0.14.1
-      prettier-plugin-jsdoc: 1.5.0(prettier@3.9.6)
-      prettier-plugin-pkg: 0.21.2(prettier@3.9.6)
-      prettier-plugin-tailwindcss: 0.7.2(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.5.0(prettier@3.9.6))(prettier@3.9.6)
+      prettier-plugin-jsdoc: 1.5.0(prettier@3.9.7)
+      prettier-plugin-pkg: 0.21.2(prettier@3.9.7)
+      prettier-plugin-tailwindcss: 0.7.2(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.5.0(prettier@3.9.7))(prettier@3.9.7)
       typescript-eslint: 8.56.1(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3)
     optionalDependencies:
       eslint: 9.39.5(jiti@2.7.0)
-      prettier: 3.9.6
+      prettier: 3.9.7
     transitivePeerDependencies:
       - '@ianvs/prettier-plugin-sort-imports'
       - '@prettier/plugin-hermes'
@@ -4842,11 +4842,11 @@ snapshots:
     dependencies:
       eslint: 9.39.5(jiti@2.7.0)
 
-  eslint-plugin-storybook@10.2.14(eslint@9.39.5(jiti@2.7.0))(storybook@10.5.10(@types/react@19.3.0)(prettier@3.9.6)(react@19.3.0))(typescript@5.9.3):
+  eslint-plugin-storybook@10.2.14(eslint@9.39.5(jiti@2.7.0))(storybook@10.5.10(@types/react@19.3.0)(prettier@3.9.7)(react@19.3.0))(typescript@5.9.3):
     dependencies:
       '@typescript-eslint/utils': 8.67.0(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3)
       eslint: 9.39.5(jiti@2.7.0)
-      storybook: 10.5.10(@types/react@19.3.0)(prettier@3.9.6)(react@19.3.0)
+      storybook: 10.5.10(@types/react@19.3.0)(prettier@3.9.7)(react@19.3.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -5755,30 +5755,30 @@ snapshots:
   prettier-plugin-astro@0.14.1:
     dependencies:
       '@astrojs/compiler': 2.13.1
-      prettier: 3.9.6
+      prettier: 3.9.7
       sass-formatter: 0.7.9
 
-  prettier-plugin-jsdoc@1.5.0(prettier@3.9.6):
+  prettier-plugin-jsdoc@1.5.0(prettier@3.9.7):
     dependencies:
       binary-searching: 2.0.5
       comment-parser: 1.4.8
       mdast-util-from-markdown: 2.0.3
-      prettier: 3.9.6
+      prettier: 3.9.7
     transitivePeerDependencies:
       - supports-color
 
-  prettier-plugin-pkg@0.21.2(prettier@3.9.6):
+  prettier-plugin-pkg@0.21.2(prettier@3.9.7):
     dependencies:
-      prettier: 3.9.6
+      prettier: 3.9.7
 
-  prettier-plugin-tailwindcss@0.7.2(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.5.0(prettier@3.9.6))(prettier@3.9.6):
+  prettier-plugin-tailwindcss@0.7.2(prettier-plugin-astro@0.14.1)(prettier-plugin-jsdoc@1.5.0(prettier@3.9.7))(prettier@3.9.7):
     dependencies:
-      prettier: 3.9.6
+      prettier: 3.9.7
     optionalDependencies:
       prettier-plugin-astro: 0.14.1
-      prettier-plugin-jsdoc: 1.5.0(prettier@3.9.6)
+      prettier-plugin-jsdoc: 1.5.0(prettier@3.9.7)
 
-  prettier@3.9.6: {}
+  prettier@3.9.7: {}
 
   pretty-format@27.5.1:
     dependencies:
@@ -6018,7 +6018,7 @@ snapshots:
       es-errors: 1.3.0
       internal-slot: 1.1.0
 
-  storybook@10.5.10(@types/react@19.3.0)(prettier@3.9.6)(react@19.3.0):
+  storybook@10.5.10(@types/react@19.3.0)(prettier@3.9.7)(react@19.3.0):
     dependencies:
       '@storybook/global': 5.0.0
       '@storybook/icons': 2.1.0(react@19.3.0)
@@ -6039,7 +6039,7 @@ snapshots:
       ws: 8.21.3
     optionalDependencies:
       '@types/react': 19.3.0
-      prettier: 3.9.6
+      prettier: 3.9.7
     transitivePeerDependencies:
       - bufferutil
       - react
